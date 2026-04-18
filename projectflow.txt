@@ -1,2 +1,4 @@
 1. create git repo clone it
 2. ctrate mycode.py and add code to it.(it will save a csv file to a new "data" folder)
+3. do git add commit push before dvc
+4. do dvc init" (create .ignoredvc, .dvc)
