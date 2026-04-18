@@ -2,3 +2,13 @@
 2. ctrate mycode.py and add code to it.(it will save a csv file to a new "data" folder)
 3. do git add commit push before dvc
 4. do dvc init" (create .ignoredvc, .dvc)
+5. now do mkdir s3 (create s3 directory)
+6. do "dvc remote add -d myremote s3"
+7. next "dvc add data/"
+   now it will ask to ('git rm -r --cached 'data''  and 'git commit -m "stop tracking data"')
+
+8. again we do "dvc add data/" and the "git add .gitignore data.dvc"
+9. now "dvc commit" and "dvc push"
+10. git add commit push
+11. now change in mycode.py by adding new row , then check change in dvc status
+12. again "dvc commit"and then  "dvc push"
