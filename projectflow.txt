@@ -12,3 +12,6 @@
 10. git add commit push
 11. now change in mycode.py by adding new row , then check change in dvc status
 12. again "dvc commit"and then  "dvc push"
+13. then git add, commit, push
+14. check dvc status, everything should be upto date
+15. repeat 11-13
